@@ -51,6 +51,7 @@ public class UserService {
 	private void updateDate(User newObj, User obj) {
 		newObj.setName(obj.getName());
 		newObj.setEmail(obj.getEmail());
+		
 	}
 	
 
