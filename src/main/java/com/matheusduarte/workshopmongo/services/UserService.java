@@ -43,7 +43,7 @@ public class UserService {
 	
 	
 	public User update(User obj) {
-		User  newObj = repo.findById(obj.getId()); // vai no banco de dados e pega o user com o id que vc passou
+		User newObj = repo.findById(obj.getId()); // vai no banco de dados e pega o user com o id que vc passou
 		updateDate(newObj, obj);
 		return repo.save(newObj);
 	}
